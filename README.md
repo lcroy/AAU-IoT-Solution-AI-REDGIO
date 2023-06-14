@@ -10,5 +10,5 @@ This repository shows the code used on the project for data collection, data pro
 ## Dataset
 The full dataset collected can be found on the following Google Drive:
 
-[Dataset]([https://www.example.com](https://drive.google.com/file/d/1yo6eICPlD_ZEKKhkYUrDPdh4wYatlIMv/view?usp=drive_link])
+[Dataset]([https://drive.google.com/file/d/1yo6eICPlD_ZEKKhkYUrDPdh4wYatlIMv/view?usp=drive_link])
 
