@@ -5,7 +5,7 @@ Repository for Master's degree project made on Aalborg University called:
 Industrial Screwdriving Task with Machine
 Learning Algorithms"*
 
-This repository shows the code used on the project for data collection, data processing, machine learning and deep learning.
+This repository shows the code used on the project regarding the data collection, data processing, machine learning and deep learning.
 
 ## Dataset
 The full dataset collected can be found on the following Google Drive:
