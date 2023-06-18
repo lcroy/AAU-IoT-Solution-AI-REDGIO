@@ -1,4 +1,5 @@
 # ScrewingCell
+
 Repository for Master's degree project made on Aalborg University called:
 
 *"Time-Series Anomaly Detection for
@@ -7,17 +8,21 @@ Learning Algorithms"*
 
 This repository shows the code used on the project regarding the data collection, data processing, machine learning and deep learning.
 
+## Table of Contents
+1. [Dataset](#dataset)
+   - [Intrinsic data](#intrinsic-data)
+   - [Task data](#task-data)
+   - [Extrinsic data](#extrinsic-data)
+2. [Data collection](#data-collection)
+   - [Data collection (main)](#data-collection-main)
+   - [Data sorting](#data-sorting)
 
-## Dataset
+## <a id="dataset"></a>Dataset
 The full dataset collected can be found on the following Google Drive:
 
 [Dataset download](https://drive.google.com/file/d/1yo6eICPlD_ZEKKhkYUrDPdh4wYatlIMv/view?usp=drive_link)
 
 The information regarding the dataset structure and the dataset can be found inside of the Dataset.zip which can be downloaded with the link provided. The dataset contains the following data sources:
-
-- [Intrinsic data](#intrinsic-data)
-- [Task data](#task-data)
-- [Extrinsic data](#extrinsic-data)
 
 ### <a id="intrinsic-data"></a>Intrinsic data
 Intrinsic data source provides the data from the sensors mounted on the automatic screwdriver. The sensors measure the screwdriving torque, angle, depth, current and RPM.
@@ -34,13 +39,13 @@ Extrinsic data source provides the audio recording of the screwdriving process i
 
 <img src="./Images/Azure_Kinect_DK.jpg" width="300">
 
-## Data collection
-
+## <a id="data-collection"></a>Data collection
 The following code is provided for data collection:
-### data collection (main)
 
+### <a id="data-collection-main"></a>Data collection (main)
 This code is the main code for connection with the robot and microphone. This script connects to the PLC, reads the registers containing the UR10 robot information, connects to the Azure Kinect DK microphone and uses a strobe signal implemented in the PLC, to start and stop data recording from different data sources. The results are saved as CSV and WAW files for every screw.
 
-### data sorting
+### <a id="data-sorting"></a>Data sorting
+
 
 This scripts are the main codes for sorting and storing the files after the srewdriving. They include conversion of the intrinsic data from the screwdriver controller from KXML format to CSV format, and provide a labeling system for all files.
