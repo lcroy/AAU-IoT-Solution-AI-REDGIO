@@ -19,7 +19,8 @@ This repository shows the code used on the project regarding the data collection
 3. [Data processing](#data-processing)
    - [Task data preprocessing](#task-data-preprocessing)
    - [Noise reduction](#noise-reduction)
-   
+   - [ML/DL processing](#ML/DL-processing)
+
 ## <a id="dataset"></a>Dataset
 The full dataset collected can be found on the following Google Drive:
 
@@ -61,4 +62,8 @@ This is the code that was used for processing of the data from the UR10 robot.
 ### <a id="noise-reduction"></a>Noise reduction
 
 This code uses a low-pass filter to remove the noise from the audio files, which is based on the audio recordings of the background noise in different instancess during the screwdriving process.
+
+### <a id="ML/DL-processing"></a>ML/DL processing
+
+The processing of data for machine and deep learning is done by the code provided in Machine Learning and Deep Learning folders. This included all of the processed related to the formating and labeling of the data, data normalisation and cleaning.
 
