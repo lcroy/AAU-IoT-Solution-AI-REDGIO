@@ -14,21 +14,23 @@ The full dataset collected can be found on the following Google Drive:
 
 The information regarding the dataset structure and the dataset can be found inside of the Dataset.zip which can be downloaded with the link provided. The dataset contains the following data sources:
 
-- [Intrinsic data](#item-1)
-- [Task data](#item-2)
-- [Extrinsic data](#item-3)
+- [Intrinsic data](#intrinsic-data)
+- [Task data](#task-data)
+- [Extrinsic data](#extrinsic-data)
 
-### Intrinsic data
-Description of item 1.
+### <a id="intrinsic-data"></a>Intrinsic data
+Intrinsic data source provides the data from the sensors mounted on the automatic screwdriver. The sensors measure the screwdriving torque, angle, depth, current and RPM.
 
-<a href="#item-1"><img src="./images/Automatic%20Screwdriver.jpg" alt="Image 1" width="300" height="200"></a>
+<img src="./Images/Automatic_Screwdriver.jpg" width="300">
 
-### Task data
-Description of item 2.
+### <a id="task-data"></a>Task data
+Task data source provides the data from the Universal Robots UR10 robot. The data contains 6 Tool Centerpoint Position measurements, together with the current provided to the robot.
 
-<a href="#item-2"><img src="./images/UR10.jpg" alt="Image 2" width="300" height="200"></a>
+<img src="./Images/UR10.jpg" width="300">
 
-### Extrinsic data
-Description of item 3.
+### <a id="extrinsic-data"></a>Extrinsic data
+Extrinsic data source provides the audio recording of the screwdriving process in .wav format.
+
+<img src="./Images/Azure_Kinect_DK.jpg" width="300">
 
 <a href="#item-3"><img src="./images/Azure%20Kinect%20DK.jpg" alt="Image 3" width="300" height="200"></a>
