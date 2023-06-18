@@ -20,6 +20,10 @@ This repository shows the code used on the project regarding the data collection
    - [Task data preprocessing](#task-data-preprocessing)
    - [Noise reduction](#noise-reduction)
    - [ML/DL processing](#ML/DL-processing)
+4. [Machine/Deep learning](#Machine/Deep-learning)
+   - [Preprocessing for ML/DL](#preprocessing)
+   - [Feature extraction](#Feature-extraction)
+   - [ML/DL processing](#ML/DL-processing)
 
 ## <a id="dataset"></a>Dataset
 The full dataset collected can be found on the following Google Drive:
@@ -57,6 +61,20 @@ This scripts are the main codes for sorting and storing the files after the srew
 The following code is provided for data processing:
 
 ### <a id="task-data-preprocessing"></a>Task data preprocessing
+This is the code that was used for processing of the data from the UR10 robot.
+
+### <a id="noise-reduction"></a>Noise reduction
+
+This code uses a low-pass filter to remove the noise from the audio files, which is based on the audio recordings of the background noise in different instancess during the screwdriving process.
+
+### <a id="ML/DL-processing"></a>ML/DL processing
+
+The processing of data for machine and deep learning is done by the code provided in Machine Learning and Deep Learning folders. This included all of the processed related to the formating and labeling of the data, data normalisation and cleaning.
+
+## <a id="Machine/Deep-learning"></a>Machine/Deep learning
+The following code is provided for machine/deep learning:
+
+### <a id="preprocessing"></a>Preprocessing for ML/DL
 This is the code that was used for processing of the data from the UR10 robot.
 
 ### <a id="noise-reduction"></a>Noise reduction
