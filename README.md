@@ -33,4 +33,4 @@ Extrinsic data source provides the audio recording of the screwdriving process i
 
 <img src="./Images/Azure_Kinect_DK.jpg" width="300">
 
-<a href="#item-3"><img src="./images/Azure%20Kinect%20DK.jpg" alt="Image 3" width="300" height="200"></a>
+
