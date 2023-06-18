@@ -21,19 +21,17 @@ The information regarding the dataset structure and the dataset can be found ins
 ### Intrinsic data
 Description of item 1.
 
-![Image 1](./Images/Automatic_Screwdriver.jpg)
+<img src="./images/Automatic Screwdriver.jpg" alt="Image 1" width="300">
 
 ### Task data
 Description of item 2.
 
-![Image 2](./Images/UR10.jpg)
+<img src="./images/UR10.jpg" alt="Image 1" width="300">
+### Extrinsic data
+Description of item 3.
+
 
 ### Extrinsic data
 Description of item 3.
 
-![Image 3](./Images/Azure_Kinect_DK.jpg)
-
-### Extrinsic data
-Description of item 3.
-
-![Image 3](https://example.com/images/image3.png)
+<img src="./images/Azure Kinect DK.jpg" alt="Image 1" width="300">
