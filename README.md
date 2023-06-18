@@ -16,7 +16,10 @@ This repository shows the code used on the project regarding the data collection
 2. [Data collection](#data-collection)
    - [Data collection (main)](#data-collection-main)
    - [Data sorting](#data-sorting)
-
+3. [Data processing](#data-processing)
+   - [Task data preprocessing](#task-data-preprocessing)
+   - [Noise reduction](#noise-reduction)
+   
 ## <a id="dataset"></a>Dataset
 The full dataset collected can be found on the following Google Drive:
 
@@ -47,5 +50,15 @@ This code is the main code for connection with the robot and microphone. This sc
 
 ### <a id="data-sorting"></a>Data sorting
 
-
 This scripts are the main codes for sorting and storing the files after the srewdriving. They include conversion of the intrinsic data from the screwdriver controller from KXML format to CSV format, and provide a labeling system for all files.
+
+## <a id="data-processing"></a>Data processing
+The following code is provided for data processing:
+
+### <a id="task-data-preprocessing"></a>Task data preprocessing
+This is the code that was used for processing of the data from the UR10 robot.
+
+### <a id="noise-reduction"></a>Noise reduction
+
+This code uses a low-pass filter to remove the noise from the audio files, which is based on the audio recordings of the background noise in different instancess during the screwdriving process.
+
