@@ -1,10 +1,6 @@
 # ScrewingCell
 
-Repository for Master's degree project made on Aalborg University called:
-
-*"Time-Series Anomaly Detection for
-Industrial Screwdriving Task with Machine
-Learning Algorithms"*
+AAU IIoT Solution (AI REDGIO 5.0 Project) made on Aalborg University.
 
 This repository shows the code used on the project regarding the data collection, data processing, machine learning and deep learning.
 
