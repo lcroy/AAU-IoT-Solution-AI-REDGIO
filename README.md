@@ -1,4 +1,4 @@
-# ScrewingCell
+# Data-driven IoT Suitcase Experiments (AAU)
 
 AAU IIoT Solution (AI REDGIO 5.0 Project) made on Aalborg University.
 
